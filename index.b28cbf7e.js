@@ -1,0 +1,2 @@
+var e=document.querySelector("thead"),r=document.querySelector("tfoot"),o=document.querySelector("tbody");function l(e){for(var r=e.rows[0].cells,o=0;o<r.length;o++)if(r[o].innerHTML===e.rows[0].cells[3].innerHTML){var l=e.rows[0].cells[1].cloneNode(!0);r[o].after(l)}}l(e),l(r);for(var c=0;c<o.rows.length;c++)if(o.rows[c].cells[1].innerHTML){var n=o.rows[c].cells[1].cloneNode(!0);o.rows[c].cells[3].after(n)}
+//# sourceMappingURL=index.b28cbf7e.js.map
